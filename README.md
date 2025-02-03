@@ -44,7 +44,7 @@
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/namanjain2602/Deribit_GoQuant.git
+git clone https://github.com/bhatideepak599/GoQuantApp.git
 cd Deribit_GoQuant
 ```
 
@@ -98,12 +98,12 @@ find_package(JsonCpp REQUIRED CONFIG)
 
 # Add executable
 add_executable(goquant_oems
-    GoQuantApp/main.cpp
-    GoQuantApp/web_socket_client.cpp
-    GoQuantApp/order_manager.cpp
-    GoQuantApp/utility_manager.cpp
-    GoQuantApp/token_manager.cpp
-    GoQuantApp/api_credentials.cpp
+    GoQuantApp/main.cpp 
+    GoQuantApp/webSocketClient.cpp 
+    GoQuantApp/orderManager.cpp 
+    GoQuantApp/utilityManager.cpp 
+    GoQuantApp/tokenManager.cpp 
+    GoQuantApp/apiCredentials.cpp
 )
 
 # Link libraries
